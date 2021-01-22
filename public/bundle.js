@@ -1,7 +1,7 @@
 /*
- * ATTENTION: The "eval" devtool has been used (maybe by default in mode: "development").
+ * ATTENTION: An "eval-source-map" devtool has been used.
  * This devtool is neither made for production nor for readable output files.
- * It uses "eval()" calls to create a separate source file in the browser devtools.
+ * It uses "eval()" calls to create a separate source file with attached SourceMaps in the browser devtools.
  * If you are trying to read the output file, select a different devtool (https://webpack.js.org/configuration/devtool/)
  * or disable the default devtool with "devtool: false".
  * If you are looking for production-ready output files, see mode: "production" (https://webpack.js.org/configuration/mode/).
@@ -16,7 +16,7 @@
   \**********************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _soma__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./soma */ \"./src/soma.js\");\n\nconsole.log((0,_soma__WEBPACK_IMPORTED_MODULE_0__.soma)(1, 3));\n\n//# sourceURL=webpack://frontend/./src/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _soma__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./soma */ \"./src/soma.js\");\n\nconsole.log((0,_soma__WEBPACK_IMPORTED_MODULE_0__.soma)(1, 6));//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly9mcm9udGVuZC8uL3NyYy9pbmRleC5qcz9iNjM1Il0sIm5hbWVzIjpbImNvbnNvbGUiLCJsb2ciLCJzb21hIl0sIm1hcHBpbmdzIjoiOztBQUFBO0FBQ0FBLE9BQU8sQ0FBQ0MsR0FBUixDQUFZQywyQ0FBSSxDQUFDLENBQUQsRUFBRyxDQUFILENBQWhCIiwiZmlsZSI6Ii4vc3JjL2luZGV4LmpzLmpzIiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IHtzb21hfSBmcm9tICcuL3NvbWEnXG5jb25zb2xlLmxvZyhzb21hKDEsNikpIl0sInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///./src/index.js\n");
 
 /***/ }),
 
@@ -26,7 +26,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _som
   \*********************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"soma\": () => /* binding */ soma\n/* harmony export */ });\nvar soma = function soma(a, b) {\n  return a + b;\n};\n\n//# sourceURL=webpack://frontend/./src/soma.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"soma\": () => /* binding */ soma\n/* harmony export */ });\nvar soma = function soma(a, b) {\n  return a + b;\n};//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly9mcm9udGVuZC8uL3NyYy9zb21hLmpzP2ZiZmEiXSwibmFtZXMiOlsic29tYSIsImEiLCJiIl0sIm1hcHBpbmdzIjoiOzs7O0FBQU8sSUFBTUEsSUFBSSxHQUFHLFNBQVBBLElBQU8sQ0FBQ0MsQ0FBRCxFQUFJQyxDQUFKLEVBQVU7QUFDNUIsU0FBT0QsQ0FBQyxHQUFDQyxDQUFUO0FBQ0QsQ0FGTSIsImZpbGUiOiIuL3NyYy9zb21hLmpzLmpzIiwic291cmNlc0NvbnRlbnQiOlsiZXhwb3J0IGNvbnN0IHNvbWEgPSAoYSwgYikgPT4ge1xuICByZXR1cm4gYStiXG59XG4iXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///./src/soma.js\n");
 
 /***/ })
 

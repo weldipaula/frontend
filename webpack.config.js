@@ -8,6 +8,7 @@ module.exports = {
     path: path.resolve(__dirname, 'public'),
     filename: 'bundle.js'
   },
+  devtool: 'eval-source-map',
   devServer: {
     contentBase: path.resolve(__dirname, 'public'),
   },
@@ -25,13 +26,16 @@ module.exports = {
         test: /\.css$/,
         exclude: /node_modules/,
         use: [
+          //insere o codigo interpretado
           { loader: 'style-loader' },
+          //interpreta o codigo
           { loader: 'css-loader' },
         ]
       },
       {
         test: /.*\.(gif|png|jpe?g)$/i,
         use: {
+          //carrega arquivos para dentro da aplicação
           loader: 'file-loader',
         }
       }
